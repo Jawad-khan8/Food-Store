@@ -1,0 +1,290 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.p {
+    font-family: 'Montserrat', sans-serif;
+}
+/* =================navbar============== */
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 0.938rem;
+    transition: all 0.4s;
+}
+
+.nav-item a:hover {
+    color: rgb(20, 219, 20);
+}
+
+.navbar-brand {
+    height: 9vh;
+    width: 17.5vh;
+}
+
+.search {
+    height: 7vh;
+    outline: none;
+    border: 0.1rem solid rgb(20, 219, 20);
+    background-color: transparent;
+    border-radius: 1.25rem 0rem 0rem 1.25rem;
+    border-right: none;
+    /* box-shadow: none; */
+}
+
+.btn1 {
+    height: 7vh;
+    outline: none;
+    border: none;
+    background-color: rgb(20, 219, 20);
+    color: #ffff;
+    border-radius: 0rem 1.25rem 1.25rem 0rem;
+    transition: all 0.4s;
+}
+
+.btn1:hover {
+    background-color: rgb(8, 131, 8);
+}
+
+.bi-bag-plus {
+    font-size: 1.8rem;
+    color: black;
+    cursor: pointer;
+    padding-top: 0.3rem;
+    transition: all 0.4s;
+}
+
+.bi-bag-plus:hover {
+    color: rgb(20, 219, 20);
+}
+
+.navbar-toggler {
+    font-size: 1.8rem;
+    color: black;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* =================main============== */
+
+.main {
+    background: url(./downedefrfre.jpg) no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+
+.main h1 {
+    font-size: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main p:nth-child(1) {
+    font-size: 1.5rem;
+    font-weight: 500;
+    /* padding-top: 0.5rem; */
+}
+
+.main p:nth-child(2) {
+    font-size: 1.1rem;
+    color: #808080;
+}
+
+.mbtn1 {
+    height: 7vh;
+    width: 15%;
+    outline: none;
+    border: none;
+    color: #ffff;
+    background-color: rgb(20, 219, 20);
+    border-radius: 2.5rem;
+    transition: all 0.4s;
+}
+
+.mbtn1:hover {
+    background-color: rgb(8, 131, 8);
+}
+
+.mbtn2 {
+    height: 7vh;
+    width: 15%;
+    outline: none;
+    border: none;   
+    background-color: transparent;
+    color: rgb(20, 219, 20);
+    border: 0.1rem solid rgb(20, 219, 20);
+    border-radius: 2.5rem;
+    transition: all 0.4s;
+}
+
+.mbtn2:hover {
+    background-color: rgb(20, 219, 20);
+    color: #ffff;
+    border: none;
+ }
+/* .line {
+    under
+} */
+
+.mbtn3 {
+    height: 7vh;
+    width: 35%;
+    outline: none;
+    border: none;
+    color: #ffff;
+    background-color: rgb(20, 219, 20);
+    border-radius: 2.5rem;
+    transition: all 0.4s;
+}
+
+.line {
+    height: 5px;
+    width: 30%;
+    background-color: rgb(20, 219, 20);
+    display: inline-block;
+}
+/* ================About============== */
+.about {
+    background: url(./imgae/abut.jpg) no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+
+.about h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.about p:nth-child(1) {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-top: 2.5rem;
+}
+
+.about p:nth-child(2) {
+    font-size: 1.1rem;
+    color: #808080;
+}
+
+/* =================welcome====================== */
+.welcome {
+    background: rgb(20, 219, 20);
+}
+.welcome h1 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.welcome p:nth-child(1) {
+    font-size: 2rem;
+    font-weight: 500;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+.p-last {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.welcome .card {
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    /* color: black; */
+    text-align: center;
+}
+
+.welcome i {
+    font-size: 45px;
+    color: rgb(20, 219, 20);
+}
+
+.welcome h2{
+    font-weight: lighter;
+    padding: 1px 0px;
+}
+
+/* ==================product================ */
+
+.product {
+    background: green;
+}
+.product h1 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.product p:nth-child(1) {
+    font-size: 2rem;
+    font-weight: 500;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+.p-last {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.star {
+    text-align: end;
+    color: orange;
+}
+
+.product .card-body {
+    border: 1px dashed gray;
+}
+
+.product .card {
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.mbtn4 {
+    height: 7vh;
+    width: 35%;
+    outline: none;
+    border: none;
+    color: #ffff;
+    background: rgb(20, 219, 20);
+    margin: 0 auto;
+    border-radius: 50px;
+    transition: all 0.4s;
+    display: block;
+}
+
+.mbtn4:hover {
+    outline: none;
+    border: 1px solid rgb(8, 131, 8);
+    color: rgb(20, 219, 20);
+    background: transparent;
+    border-radius: 50px;
+}
+.head1 {
+    font-weight: 400;
+    margin: 0;
+}
+
+
+.phone {
+    background-color: rgb(20, 219, 20);
+    width: 174%;
+}
+
+.footer {
+    background-color: rgb(20, 219, 20);
+    color: white;
+}
+
+.footer-text {
+    text-align: center;
+}
